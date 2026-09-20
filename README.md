@@ -1,24 +1,101 @@
-# prayer
+# vuetify-project
 
-## Project setup
-```
-yarn install
+Scaffolded with Vuetify CLI.
+
+## ❗️ Documentation
+
+- Primary docs: https://vuetifyjs.com/
+- Getting started guide: https://vuetifyjs.com/en/getting-started/installation/
+- Community support: https://community.vuetifyjs.com/
+- Issue tracker: https://issues.vuetifyjs.com/
+
+## 🧱 Stack
+
+- Framework: Vue 3 + Vite
+- UI Library: Vuetify
+- Language: TypeScript
+- Package manager: npm
+
+## Supabase setup
+
+The app uses Supabase Auth and a private, user-scoped `prayer_requests` table.
+
+1. Create a Supabase project and enable Email authentication.
+2. Run `supabase/migrations/001_prayer_requests.sql` in the Supabase SQL Editor.
+3. Copy `.env.example` to `.env.local` and add the project URL and anon key.
+4. Start the app with `npm run dev`.
+
+## 🧭 Start Here
+
+- Main entry: `src/main.ts`
+- Main app component: `src/App.vue`
+- Main styles: `src/styles/`
+- Plugin setup: `src/plugins/`
+
+## 📁 Project Structure
+
+- `src/main.ts` — application entry point
+- `src/App.vue` — root component
+- `src/components/` — reusable Vue components
+- `src/plugins/` — plugin registration and setup
+- `src/styles/` — global styles and theme settings
+- `public/` — static public files
+
+## ✨ Enabled Features
+
+- ESLint
+- Vuetify MCP
+- Pinia
+- File Router
+- Tailwind CSS
+
+## 💿 Install
+
+Use your selected package manager (npm) to install dependencies:
+
+```bash
+npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+## 🚀 Quick Start
+
+```bash
+npm install
+npm run dev
 ```
 
-### Compiles and minifies for production
-```
-yarn build
+## 🏗️ Build
+
+```bash
+npm run build
 ```
 
-### Lints and fixes files
-```
-yarn lint
+## 🧪 Available Scripts
+
+- `npm run dev`
+- `npm run build`
+- `npm run preview`
+- `npm run build-only`
+- `npm run type-check`
+- `npm run lint`
+- `npm run lint:fix`
+
+## 🤖 Vuetify MCP Server
+
+This project is configured with the Vuetify Model Context Protocol (MCP) server.
+To install and configure the MCP server for your favorite IDE (Cursor, Trae, Windsurf, VS Code, Claude Desktop, etc.) run:
+
+```bash
+npx -y @vuetify/mcp-cli
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This will open an interactive setup wizard to help you connect your AI assistant to the Vuetify ecosystem.
+
+## 💪 Support Vuetify Development
+
+This project uses Vuetify - an MIT licensed Open Source project. We are glad to welcome contributors and any support for ongoing development:
+
+- Contribute to Vuetify and ecosystem projects: https://github.com/vuetifyjs
+- Request enterprise support: https://support.vuetifyjs.com/
+- Sponsor on GitHub: https://github.com/sponsors/vuetifyjs
+- Support on Open Collective: https://opencollective.com/vuetify
