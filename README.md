@@ -1,6 +1,13 @@
-# vuetify-project
+# Prayerful
 
-Scaffolded with Vuetify CLI.
+Prayerful is a private prayer journal for capturing personal prayer requests,
+returning to them over time, and marking answered prayers. Users create an
+account with Supabase Auth, and their requests are stored in Supabase with
+Row Level Security so each user can access only their own entries.
+
+The app provides a public landing page for visitors, email-based sign in and
+registration, responsive prayer-request management, and light or dark themes
+that follow the user's system preference.
 
 ## ❗️ Documentation
 

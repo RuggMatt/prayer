@@ -9,6 +9,9 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    outDir: 'docs',
+  },
   plugins: [VueRouter({ dts: 'src/typed-router.d.ts' }), tailwindcss(), Vue({
     template: { transformAssetUrls },
   }), // https://github.com/vuetifyjs/vuetify-loader/tree/master/packages/vite-plugin#readme
